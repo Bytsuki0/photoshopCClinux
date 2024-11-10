@@ -73,7 +73,7 @@ function replacement() {
     local filename="replacement.tgz"
     local filemd5="6441a8e77c082897a99c2b7b588c9ac4"
     local filelink="https://victor.poshtiban.io/p/gictor/photoshopCC/replacement.tgz"
-    local filelink="file:///home/tsuki/Downloads/replacement.tgz"
+    local filepath="$CACHE_PATH/$filename"
 
     download_component $filepath $filemd5 $filelink $filename
 
